@@ -38,6 +38,23 @@
     },
     {
       "response_type": "greeting",
+      "user_input": ["مرحبا", "اهلا", "السلام عليكم"],
+      "bot_response": "أهلاً وسهلاً!",
+      "required_words": [],
+      "language": "ar"
+    },
+    {
+      "response_type": "jokes",
+      "user_input": ["نكتة", "امزح معي", "قل لي نكتة"],
+      "bot_response": [
+        "مرة واحد ذهب إلى الطبيب، قال له: كلما شربت شاي أحس بألم في عيني، قال له الطبيب: اشربه بعد ما تطلع الملعقة!",
+        "في طالب راح للمدرسة من غير شنطة، سألوه ليش؟ قالهم: أنا جاي أسمع مش أدرس."
+      ],
+      "required_words": [],
+      "language": "ar"
+    },
+    {
+      "response_type": "greeting",
       "user_input": ["see you", "goodbye", "bye"],
       "bot_response": "See you later!",
       "required_words": []
